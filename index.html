@@ -1,0 +1,141 @@
+<!DOCTYPE html><!--html version instruction-->
+<html lang="en"><!--tell the website about the browser-->
+<head><!--it contains metadata and title of the browser-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><!--title-->
+</head>
+<body><!--content of webpage--><!--displays all inside this-->
+    <i><h1><ins>Suresh</ins><br>navin</h1><!--heading tag from h1->h6*size decreases-->
+        <hr><!--draw a line in horizontally-->
+    <h2>Suresh</h2>
+    <hr>
+    <h3>Suresh</h3>
+    <a href="about.html#RUn " target="_blank">click for desserts</a><!--navigate wihtin our websites--><!--when we give target blank it will go to next page-->
+    <hr>
+    <h4>Suresh</h4>
+    <h5>Suresh</h5><br><!--breaking the curent line and goes to new line-->
+    <h6>Suresh</h6></i><!--italic tag converts italic-->
+    <b>sowndarya</b><br><!--bold tag converts into bold-->
+    a<sup>2</sup>+b<sup>2</sup><br><!--superscript is for writing expression in power-->
+    H<sub>2</sub>O<br><!--subscript is for writing expression in base-->
+    <q>BOOMER</q><br><!--write contents inside the double quotes-->
+    <del>15000</del>&nbsp;8000<br><!--strikes the content --><!--nbsp for leaving space-->
+    <s>40000</s>&nbsp;2<br>
+    <ins>5000</ins><!--for underlining the content-->
+    <strong>Arun</strong><!--displays in bold-->
+    <address>sikkanuthu</address><!--displays in italic-->
+    <abbr>Navin</abbr><br><!--abbrevation tag -->
+    <dfn>Trees gives fruit</dfn><br><!--definition tag dfn-->
+    <ol start="8"><!--ordered list (romans ,numbers,alphabets)--><!--we can specify type in ordered list--><!--start can be given for starting at which number-->
+        <li>APple</li><!--default  number-->
+        <li>Orange</li><!--li is must in every line to display it in ordered list-->
+        <li>Mango</li>
+        
+    </ol>
+    <ul><!--Unordered list with default bullets-->
+       <li>Suresh</li><!-- li is must-->
+       <li>Navin</li>
+       <li>SOwndaraya</li>
+       <li>Venila</li>
+    </ul>
+    <dl><!--definition list-->
+        <dt>TREES</dt><!--definition term for heading-->
+        <dd>Trees are green</dd><!--definition for that term-->
+    </dl>
+    <!--creating links in the webpage-->
+    <a href="https://www.javatpoint.com/">about me</a></br><!--touching link name--></a><!-- href hypertext reference(it will redirect you to the givenlink)-->
+    <a href="about.html" target="_blank">CLICK HERE</a><br>
+    <a href="../root.html">Hello</a><!--acessing in another folder-->
+    <!--Mail Attribute-->
+    <a href="mailto:sureshpanneer2002@gmail.com">Send mail</a><!--automatically goes to mail sending page-->
+    <!--Id Attribute-->
+    <h2 id="desserts">desserts</h2><!--give name inside the heading-->
+    <!--IMAGE-->
+    <a href="https://www.javatpoint.com/"><img src="image/IMG_20220503_212525_082.jpg" alt="good image" heigth="50px" width="50px"/></a><br><!--for placing image in the web page(but image size will be large)-->
+    <!--to adjuct the image size-->
+    <img src="image/IMG_20220503_212525_082.jpg" alt="good image" heigth="100cm" width="100cm"/><br><!--setting heigth and width-->
+    hello
+    <img src="image/IMG_20220503_212525_082.jpg" alt="goodImage"  heigth="150cm" width="150cm" title="Suresh" /><br><!--title is for show the picture name when long pressed-->
+    <img src="image/IMG_20220503_212525_082.jpg" alt="goodimage"  style="width:128px;height:128px"><!--changing style--><!--we can also use align keyword-->
+   <!--writing name for the image-->
+   <figure>
+    <img src="image/IMG_20220503_212525_082.jpg" alt="Good" heigth="100cm" width="100cm"/>
+    <figcaption>good image</figcaption>
+   </figure>
+   <!--Table creation-->
+   <table border="4"><!--for creating table give table tag-->
+     <thead><!--every table must have head tag-->
+        <tr><!--give the heading in first row-->
+            <th>S.no</th><!--give heading names-->
+            <td colspan="2">name</td><!--colspan for giving n cols as same name-->
+            <!--<th>name</th>
+            <th>dept</th>--><!--if we give the colspan then we need to delete the heading-->
+        </tr>
+    </thead>
+    <tbody><!--inside body give tha datas-->
+       
+        <tr><!--in every row give the data-->
+            <td rowspan="2">1</td><!--rowspan for giving n rows as same name-->
+            
+            <td>suresh</td>
+            <td>ece</td>
+        </tr>
+        <tr>
+            
+            <td>vennila</td>
+            <td>ece</td>
+        </tr>
+    </tbody><!--closing tag for body-->
+    </table><br><br><!--closing tag for table-->
+    <!--FORM-->
+    <form action="about.html" method="GET"><!--creating the form --><!--action is for show the message when the button is pressed-->
+        <label>ENTERNAME</label><!--for give name nearby box-->
+        <input name="User Id"><!--input is for creating box--><!--name is for getting input and storing it-->
+        <button>Submit</button><!--when we press submit button-->
+   </form><!--closing tag for form-->
+   <br>
+   <form action="about.html " method="GET">
+    <label for="username" >USERNAME</label><!--connecting boxes and label -->
+    <input required id="username"><!--give same name as label for connecting-->
+    <button>submit</button>
+   </form>
+   <form>
+    <label for="name">NAME</label>
+    <input id="name" type="password"><!--we can specify the input type like password or text-->
+    <button type="submit"> Submit</button>
+   </form>
+   <form action="new.html " method="GET">
+    <label for="ss">EXP</label>
+    <input value="12" placeholder="Type your exp number"><!--placeholder is for writing inside the box-->
+    <button>Submit</button><!--value is given for default values inside the box-->
+    </form>
+    <form action="new.html" method="GET">
+        <label for="nn">NUMBER</label>
+        <input  required placeholder="Ex;12345" minlength="5"><!--maxlength and minlength is for setting input size-->
+        <button>Submit</button><!--required is given compulsory input-->
+    </form>
+    <form>
+        <label for="k">Box </lable>
+            <input id="K" type="checkbox" ><!--it is for showing all list of years available-->
+            <button>enter</button><!--checkbox is for clinking itemsrequired-->
+    </form>
+    <form>
+        <label for="k">PARAGRAPH</label>
+        <textarea name="" id="" cols="10" rows="10"></textarea><br><!--textarea is for writing paragraphs-->
+        <select ><!--select is for selecting the option from list of options-->
+            <option value="TN" >taminadu</option>
+            <option value="KL">KERALA</option>
+            <option value="AP">ANDHRA</option>
+        </select>
+        </form>
+        <audio controls preloop><!--audio tag is for inserting audio in the webpage-->
+        <source src="image/Bigg Boss Tamil Season 6   4th November 2022  Promo 1.mp3" type="audio/mp3"><!--src file name (image/source)-->
+        </audio><!--ending tag--><!--loopp for repetation-->
+        <video width="100" height="200" controls preloop>
+            <source src="image/Vedio.mp4" type="video/mp4">
+        </video>
+    
+</body><!--closing body tag-->
+</html><!--ending html tag-->
